@@ -1,0 +1,194 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utilities */
+
+.w-600{
+  width: 600px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+/* Text Styles*/
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+
+  .profile-about .skills {
+    flex-direction: column;
+  }
+
+  .dash-buttons a {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.2rem;
+  }
+
+  .post {
+    grid-template-columns: 1fr;
+  }
+  .post a,
+  .post button {
+    padding: 0.3rem 0.4rem;
+  }
+
+
+.alert-wrapper {
+  position: fixed;
+  top: 4rem;
+  right: 2rem;
+  display: inline-block;
+}
+
+.background-img{
+  position: relative;
+  background: url('./img/1.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.f-33{
+  font-size: 33px;
+}
+.f-20{
+  font-size: 20px;
+}
+
+.f-40{
+  font-size: 40px;
+}
+
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 50px;
+  margin: 0;
+  padding-top: 0;
+}
+.p-250{
+  padding: 150px 300px 0 100px ;
+}
+
+.category{
+  justify-content: center;
+  display: flex;
+  margin:20px 200px;
+  border-radius: 30%;
+  border: 5px solid grey;
+  background-color: white;
+}
+.category-box{
+  padding: 20px;
+}
+
+.start-img{
+  width: 70%;
+  margin: 0;
+  padding-top: 0;
+}
+
+.button-sm{
+  border:1px solid #00b1bb;
+  border-radius: 50px;
+  background-color: #00b1bb;
+  color: white;
+  font-size:40px;
+  height: 70px;
+}
+
+.button-sm-white{
+  border:3px solid grey;
+  border-radius: 50px;
+  background-color: white;
+  color: grey;
+ font-size: 33px;
+}
+
+.button-lg{
+   border:1px solid #00b1bb;
+  border-radius: 50px;
+  background-color: #00b1bb;
+  color: white;
+  font-size:50px;
+  width: 40%;
+}
+
+.f-color{
+  color: #00b1bb;
+}
+
+.border-radius{
+  border:1px solid grey ;
+  border-radius: 50px;
+}
+
+ul{
+  margin:0;
+}
+
+.content-end{
+  display: flex;
+  justify-content: end;
+}
+.content-center{
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-end{
+  margin-top: 30px;
+}
+.container, .container-fluid{
+  padding: 0;
+}
